@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "ellis-portfolio",
-    "description": "A very interesting project.",
+    "name": "Gavin Portfolio",
+    "description": "A collaboration of Gavin's accomplishments",
     "slug": "ellis-portfolio",
     "privacy": "public",
     "sdkVersion": "24.0.0",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/brownlogo.png",
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
