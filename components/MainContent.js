@@ -40,8 +40,8 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     quote:{
-        paddingTop: '15%',
-        padding: 30,
+        marginTop: '7%',
+        margin: 30,
         fontSize: 20,
         color:'black',
         textAlign: 'center',

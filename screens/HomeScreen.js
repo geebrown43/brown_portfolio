@@ -5,6 +5,7 @@ import { WebBrowser } from 'expo';
 import { MonoText } from '../components/StyledText';
 import Header from '../components/Header'
 import MainContent from '../components/MainContent'
+import Links from '../components/Links'
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -42,6 +43,7 @@ export default class HomeScreen extends React.Component {
       
       <Header />     
       <MainContent data ={this.state.data} />
+      <Links />
       </ImageBackground>  
       
   
