@@ -70,7 +70,7 @@ export default class App extends React.Component {
               <Animated.Text
                 style={[styles.foregroundText, this.getPageTransformStyle(0)]}
               >
-                Page 1
+                Ball Up
               </Animated.Text>
             </View>
           }
@@ -87,7 +87,7 @@ export default class App extends React.Component {
               <Animated.Text
                 style={[styles.foregroundText, this.getPageTransformStyle(1)]}
               >
-                Page 2
+                Roof Stops
               </Animated.Text>
             </View>
           }

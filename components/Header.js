@@ -8,7 +8,7 @@ export default class Header extends React.Component {
     render(){
         return (
             <View>
-                <Text style={styles.head}>Gavin Portfolio</Text>
+                <Text style={styles.head}>Gavin Brown</Text>
             </View>
         )
     }
@@ -17,9 +17,13 @@ export default class Header extends React.Component {
 
 const styles = StyleSheet.create({
     head:{
-        paddingTop: 10,
-        fontSize: 48,
-        color: 'red',
-        fontFamily: 'lobster'
+        paddingTop: 30,
+        fontSize: 50,
+        color: 'black',
+        fontFamily: 'great',
+        textAlign: 'center',
+        backgroundColor:'transparent'
     }
 })
+
+
