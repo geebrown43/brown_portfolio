@@ -12,20 +12,6 @@ export default class HomeScreen extends React.Component {
     header: null,
   };
 
-  constructor(){
-    super()
-    this.state = {
-      data: []
-    }
-  }
-
-  async componentDidMount(){
-    fetch('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1')
-    .then(res => res.json()
-  .then(data => this.setState({data: data})))
-  }
-
-
   render() {
     const resizeMode = 'cover';
     const text = 'This is some text inlaid in an <Image />';
